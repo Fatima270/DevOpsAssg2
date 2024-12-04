@@ -19,7 +19,7 @@ app.use(express.urlencoded({ extended: true }));
 
 // Connect to MongoDB
 const connect = mongoose.connect(
-  "mongodb+srv://a:a@cluster0.1cih6pg.mongodb.net/budget-tracker"
+  "mongodb+srv://fatimaabbasi270:pPZdZc36XUArIzLq@cluster0.rtwxz.mongodb.net/budget-tracker"
 );
 connect
   .then((db) => console.log("connected to db"))
@@ -36,7 +36,7 @@ connect
 app.use(cors());
 app.use(
   cors({
-    origin: "http://13.50.214.44:3000",
+    origin: "http://13.61.12.154:3000",
   })
 );
 // const allowedOrigins = ["http://localhost:5173/", "http://localhost:5174/"];
